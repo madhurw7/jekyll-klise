@@ -13,7 +13,7 @@ I don't really have any plans this new year and christmas, and I wanted to do so
 
 To learn this, I will try to keep a goal, I want to do two things in Rust, one is to create a basic REST API Web Server, and other is I want to create a Socket based Chat App in Rust. I will start with learning the basic concepts of the language. I know a little bit about the concept of ownership before hand but that is the extent of it. Coming from a Java background, I love my Classes and Inheritance and all of the OO goodness, I am looking forward to be super annoyed with how Rust wants me to do things. After basic concepts, I will move on to figuring out some libraries, and building these two things.
 
-This will be sort of my dump for all the things that I am making note of while going through the book, [The Rust Programming Language]{https://doc.rust-lang.org/book/}
+This will be sort of my dump for all the things that I am making note of while going through the book, [The Rust Programming Language](https://doc.rust-lang.org/book/)
 
 Variables are immutable by default, to create a mutable variable, need to use `let mut x = 32;` Types are usually inferred, but can be declared, for example, `let x: i32 = 12` or `let x = 12i32`
 
@@ -41,4 +41,4 @@ Interesting thing is that I can shadow an immutable variable, which might allow 
 
 `match` in rust seems similar to `switch` in other languages
 
-Apart from `mut` variables and default immutable variables, rust also has `const` [constants](http://constants.In). In case of constants, type must be annotated. Constants are valid for the entire time a program runs, within the scope in which they were declared.
+Apart from `mut` variables and default immutable variables, rust also has `const` constants. In case of constants, type must be annotated. Constants are valid for the entire time a program runs, within the scope in which they were declared.
